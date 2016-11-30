@@ -1,0 +1,10 @@
+/bin/
+/target/
+/.cache-main
+/.classpath
+/.project
+/cats-free-macro.ipr
+/cats-free-macro.iws
+/.idea/
+/.settings/
+/project/target/
