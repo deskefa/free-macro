@@ -7,7 +7,7 @@ import scala.reflect.runtime.universe._
 
 import scala.annotation.compileTimeOnly
 
-@compileTimeOnly("@demo.free not expanded")
+@compileTimeOnly("@demo.free not expanded") 
 class free extends scala.annotation.StaticAnnotation {
   def macroTransform(annottees: Any*): Any = macro freeMacroImpl.impl
 }
